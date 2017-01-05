@@ -45,3 +45,9 @@ Here is how you can create a dropdown list:
         @property(nonatomic,assign)CGFloat rowHeight;
         ///字体大小
         @property(nonatomic,assign)CGFloat fontSize
+        
+        
+# Effect Picture
+![image](https://github.com/Fantast-WLB/LBPullList/blob/master/LBPullList/choose.gif)
+
+![image](https://github.com/Fantast-WLB/LBPullList/blob/master/LBPullList/pull.gif)
