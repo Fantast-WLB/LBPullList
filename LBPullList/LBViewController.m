@@ -36,9 +36,12 @@
 - (IBAction)clickPullList:(UIButton *)sender {
     if (self.pullView == nil){
         
+        ///创建下拉菜单
         self.pullView = [LBPullView showTheListOnButton:sender Direction:arc4random_uniform(4) Height:100 Titles:@[@"第一条",@"第二条",@"第三条",@"第四条"] Images:@[Image(1),Image(2),Image(3),Image(4)]];
         self.pullView.delegate = self;
         
+        
+        ///自定义界面
         self.pullView.shadowWidth = 5;
         self.pullView.backColor = [UIColor redColor];
         self.pullView.textColor = [UIColor blueColor];
